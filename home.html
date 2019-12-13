@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Macro Calculator</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding align="center">
+    
+  <h1 align="center">Easily Count Your Macros!</h1>
+
+  <div id="intro_paragraph">
+  <p align="center" class="style_list">To use a <b>Macro count for weight gain</b>, its important to note that a pound is equivalent to <b class="calories">3,000</b> calories respectively.
+    <br><br>The key is really in <b>'how'</b> you get these 3,000 calories. They should primarily come from: <b class="style_list4">Protien</b>, <b class="style_list2">Fat</b> & <b class="style_list3">Carbs.</b></p>
+  </div>  
+  
+    <p align="center" class="style_font">The calculations for each nutrient is on the <b>'About'</b> page</p>
+    <p align="center" class="style_font" ><b>OR</b>, you can let us get your Macro count for you by simply providing your weight! </p>
+  
+    
+    <!--Input Field for User to Enter their Weight-->
+    
+    <h4>Enter Your Weight: <input type="text" id="num1"></h4>
+    <br>
+    <br>
+ 
+
+  <!--Macro Button that is used to display results-->
+  
+  <button style="zoom:1.2; width:145px;" (click)="calculateMacros()" ion-button class="macrobutton" >
+      Calculate Macros!
+  </button>
+
+  <button style="zoom:1.2; width:145px;" (click)="clearResults()" ion-button class="resetbutton">
+      Reset
+  </button>
+  
+  
+
+  
+<!--Macro Results displayed here-->
+  <ion-list-header id="answer">Protein Needed</ion-list-header>
+  <ion-list-header id="answer2">Calories From Protein</ion-list-header>
+  <ion-list-header id="answer3">Fat Needed</ion-list-header>
+  <ion-list-header id="answer4">Calories From Fat</ion-list-header>
+  <ion-list-header id="answer5">Remaining Carb Calories Needed</ion-list-header>
+  <ion-list-header id="answer6">Calories To Get From Carbs</ion-list-header>
+                
+
+                
+
+</ion-content>

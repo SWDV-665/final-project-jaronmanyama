@@ -1,0 +1,48 @@
+page-home {
+
+    h3.no-item{
+        color: map-get($colors, 'primary' );
+    }
+
+}
+
+.macrobutton {
+    background-color: #f5b70e;
+}
+
+.style_list {
+  color:black;
+  font-size:20px;
+}
+.style_list2 {color:rgb(8, 182, 8);
+  font-size:20px;
+}
+.style_list3 {color:orange;
+  font-size:20px;
+}
+
+
+.style_list4{
+color:blue;
+font-size:20px;
+}
+
+.calories {color:rgb(235, 97, 5);}
+
+.style_font {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+}
+
+#answer {color:rgb(202, 9, 9);}
+#answer2 {color:blue}
+#answer3 {color:darkgoldenrod;}
+#answer4 {color:rgb(218, 214, 24)}
+#answer5 {color:rgb(2, 212, 167)}
+#answer6 {color:rgb(247, 135, 7);}
+
+.macro_list{
+  text-align: justify;
+  position:static;
+  top:350px;
+  right: 150px;
+}

@@ -1,0 +1,48 @@
+page-home {
+
+    h3.no-item{
+        color: map-get($colors, 'primary' );
+    }
+
+}
+
+.macrobutton {
+    background-color: #f5b70e;
+}
+
+.resetbutton{
+  background-color:rgb(18, 182, 8);
+  
+}
+.style_list {
+  color:black;
+  font-size:20px;
+}
+.style_list2 {color:rgb(8, 182, 8);
+  font-size:20px;
+}
+.style_list3 {color:orange;
+  font-size:20px;
+}
+
+
+.style_list4{
+color:blue;
+font-size:20px;
+}
+
+.calories {color:rgb(235, 97, 5);}
+
+.style_font {
+  font-size: 20px;
+}
+
+#answer {color:blue;} 
+#answer2 {color:red}
+#answer3 {color:rgb(18, 182, 8);}
+#answer4 {color:red}
+#answer5 {color:rgb(218, 214, 24)}
+#answer6 {color:rgb(247, 135, 7);}
+
+
+
